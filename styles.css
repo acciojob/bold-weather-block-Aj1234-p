@@ -47,3 +47,21 @@ p{
 .type{
   text-align: center;
 }
+
+
+@media screen and (max-width: 700px) {
+   .weather-block{
+      background-color: var(--col-first);
+      flex-direction: column;
+      border-radius: 20px;
+      padding: 10px;
+      max-width: 500px;
+    }
+    .temp{
+      max-width: 500px;
+      font-size: 30px;
+      font-weight: 700;
+      display: flex;
+      justify-content: space-around;
+    }
+}
