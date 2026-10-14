@@ -1,1 +1,49 @@
-/*  your css code here. If applicable */
+@import url('https://googleapis.com');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --col-first: #b96fa1;
+  --col-second: #5a3f8c;
+  --col-third: #c0a6f0;
+}
+
+body{
+  min-height: 100vh;
+  background: linear-gradient(var(--col-first),var(--col-second));
+}
+
+.container{
+  padding: 50px 60px 60px 30px;
+}
+
+
+p{
+  font-family: 'Roboto', sans-serif;
+  padding: 5px 0px;
+  color: #fff;
+}
+
+.selected-location-block .location{
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.weather-block{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  min-width: 900px;
+  margin-top: 50px;
+}
+
+.item-temp-number1{
+  font-weight: 600;
+}
+
+.type{
+  text-align: center;
+}
