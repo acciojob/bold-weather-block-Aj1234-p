@@ -49,7 +49,7 @@ p{
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 899px) {
    .weather-block{
       background-color: var(--col-first);
       flex-direction: column;
